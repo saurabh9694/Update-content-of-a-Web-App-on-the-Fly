@@ -1,0 +1,14 @@
+﻿@model ContentOnTheFly.Models.IndexModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Let's Change contents of our App on the Fly</h2>
+        <p>
+            @Model.ApplicationContent.ToString();
+       </p>
+        <p><a class="btn btn-default" href="http://about.me/saurabh-mishra">Saurabh Mishra</a></p>
+    </div>
+</div>
